@@ -22,7 +22,7 @@ public class CompareTwoLength extends Length_line {
 			System.out.println(" length2 is greater than length1 by margin of  "+ch);
 		}
 		
-		else if ( check > 0 ) {
+		else if ( ch > 0 ) {
 			System.out.println(" length1 is greater than length2 by margin of  "+ch);
 		}
 		
