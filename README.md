@@ -1,21 +1,21 @@
 package UC3_Using_java_compareTo_method;
 
-import UC1_Calculate_Length_of_line.Length_line;
+import UC1_Calculate_line_length.Length_line;
 
-public class CompareTo extends Length_line {
+public class CompareTwoLength extends Length_line {
 	
 
 	public static void main(String[] args) {
 		
 		double length1, length2 ;
-		System.out.println("Enter the co-ordinates of 1st line ");
+		System.out.println("Enter 1st line coordinate ");
 		length1 = Coordinate_length();
-		System.out.println("Enter the co-ordinates of 1st line ");
+		System.out.println("Enter 2nd line coordinate ");
 		length2 = Coordinate_length();
 		
 		String len1 = length1+" ";
 		String len2 = length2+" ";
-		int ch = (len1.compareTo(len2));
+		int ch = (len1.CompareTwoLength(len2));
 		System.out.println(len2+" "+len1);
 		
 		if ( ch < 0 ) {
