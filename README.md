@@ -1,7 +1,5 @@
 package UC2_Check_equality_between_line;
-
-import UC1_Calculate_Length_of_line.Length_line;
-
+import UC1_Calculate_line_length.Length_line;
 public class Equality extends Length_line {
 	
 	public static void main(String[] args) {
