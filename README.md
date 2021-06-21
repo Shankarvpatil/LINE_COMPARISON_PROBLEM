@@ -1,20 +1,34 @@
-package UC2_Check_equality_between_line;
+package UC3_Using_java_compareTo_method;
 
-import UC1_Calculate_line_length.Length_line;
+import UC1_Calculate_Length_of_line.Length_line;
 
-public class Equality extends Length_line {
+public class CompareTo extends Length_line {
 	
+
 	public static void main(String[] args) {
 		
 		double length1, length2 ;
-		System.out.println("Enter your 1st line coordinate ");
+		System.out.println("Enter the co-ordinates of 1st line ");
 		length1 = Coordinate_length();
-		System.out.println("Enter your 2nd line coordinate ");
+		System.out.println("Enter the co-ordinates of 1st line ");
 		length2 = Coordinate_length();
 		
 		String len1 = length1+" ";
 		String len2 = length2+" ";
-		System.out.println("Two lines are equal "+len2.equals(len1));
+		int ch = (len1.compareTo(len2));
+		System.out.println(len2+" "+len1);
+		
+		if ( ch < 0 ) {
+			System.out.println(" length2 is greater than length1 by margin of  "+ch);
+		}
+		
+		else if ( check > 0 ) {
+			System.out.println(" length1 is greater than length2 by margin of  "+ch);
+		}
+		
+		else {
+			System.out.println(" length1 is equal to  length2 ");
+		}
 		
 	}
 
