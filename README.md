@@ -1,7 +1,9 @@
 
 
 package UC1_Calculate_line_length;
+
 import java.util.Scanner;
+
 public class Length_line {
 	
 	public static double Coordinate_length() {
