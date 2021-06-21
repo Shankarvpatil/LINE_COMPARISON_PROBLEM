@@ -21,7 +21,7 @@ public class Length_line {
 		
 		double A = x2 - x1;
 		double B = y2 - y1;
-		double C = X*X + Y*Y;
+		double C = A*A + B*B;
 		double Length = Math.sqrt(C);
 		return Math.floor(Length);
 	
